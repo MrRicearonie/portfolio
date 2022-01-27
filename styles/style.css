@@ -1,0 +1,70 @@
+body {
+    background-color: #2b2b2b;
+    color: whitesmoke;
+}
+
+a {
+    color: white;
+}
+
+section {
+    border-style: groove;
+    border-width: 1px;
+    border-color: gray;
+    border-radius: 1%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 30px;
+    margin: 1rem;
+}
+
+img {
+    filter: drop-shadow(0 0 10px #6b6b6b);
+    border-radius: 1.5%;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+h2 {
+    color: white;
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+header p {
+    color: beige;
+}
+
+a[href="https://crrempe.com"] {
+    color: rgb(208, 255, 0);
+}
+
+.portfolio-title {
+    color: aquamarine;
+}
+
+.technohole-text-padding {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.middle-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project-logo {
+    width: 10%;
+    height: 10%;
+    filter: drop-shadow(0 0 0 #000000);
+}
+
+.text-with-icon {
+    width: 50%;
+}
