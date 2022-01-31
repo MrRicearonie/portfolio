@@ -40,6 +40,14 @@ header p {
     color: beige;
 }
 
+nav {
+    font-size: 1.5rem;
+}
+
+nav a {
+    color: coral;
+}
+
 a[href="https://crrempe.com"] {
     color: rgb(208, 255, 0);
 }
