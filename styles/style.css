@@ -1,10 +1,12 @@
 body {
     background-color: #2b2b2b;
     color: whitesmoke;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 a {
     color: white;
+    transition: color 0.5s ease-in;
 }
 
 section {
@@ -21,6 +23,18 @@ section {
 img {
     filter: drop-shadow(0 0 10px #6b6b6b);
     border-radius: 1.5%;
+}
+
+img[class$="-photo"] {
+    transition-property: height, width;
+    transition-duration: 0.25s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.1s;
+}
+
+.tech-reviews-photo:hover {
+    height: 50%;
+    width: 50%;
 }
 
 h1 {
@@ -52,6 +66,18 @@ a[href="https://crrempe.com"] {
     color: rgb(208, 255, 0);
 }
 
+a:hover {
+    color: rgb(175, 175, 175);
+}
+
+nav a:hover {
+    color: rgb(175, 86, 54);
+}
+
+section[class^="tech-"] {
+    transition: border 2s ease-in-out;
+}
+
 .portfolio-title {
     color: aquamarine;
 }
@@ -68,11 +94,25 @@ a[href="https://crrempe.com"] {
 }
 
 .project-logo {
+    transition: width 0.5s ease-in-out;
     width: 10%;
     height: 10%;
     filter: drop-shadow(0 0 0 #000000);
 }
 
+.project-logo:hover {
+    width: 12%;
+    height: 12%;
+}
+
 .text-with-icon {
     width: 50%;
+}
+
+.tech-reviews:hover {
+    border-color: rgb(255, 60, 0);
+}
+
+.tech-news:hover {
+    border-color: rgb(166, 243, 50);
 }
