@@ -62,6 +62,11 @@ footer a {
     text-decoration: underline;
 }
 
+.logo {
+    width: 50px;
+    height: 43.49px;
+}
+
 .centered {
     display: flex;
     text-align: center;
@@ -155,4 +160,14 @@ footer a {
 .personal-project .project-square {
     background-color: #b09f96;
     border-color: #7d706a;
+}
+
+.personal-logo {
+    width: 234.48px;
+    height: 204px;
+}
+
+.wi-fi-connect-logo {
+    width: 277.55px;
+    height: 204px;
 }
