@@ -78,10 +78,6 @@ section[class^="tech-"] {
     transition: border 2s ease-in-out;
 }
 
-.portfolio-title {
-    color: aquamarine;
-}
-
 .technohole-text-padding {
     padding-left: 10%;
     padding-right: 10%;
@@ -91,22 +87,6 @@ section[class^="tech-"] {
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
-
-.project-logo {
-    transition: width 0.5s ease-in-out;
-    width: 10%;
-    height: 10%;
-    filter: drop-shadow(0 0 0 #000000);
-}
-
-.project-logo:hover {
-    width: 12%;
-    height: 12%;
-}
-
-.text-with-icon {
-    width: 50%;
 }
 
 .tech-reviews:hover {
