@@ -146,3 +146,16 @@ input[type=submit]:hover {
     background-color: #5f96c8;
     box-shadow: 0 5px 20px rgb(87, 87, 87), 0 15px 30px rgba(158, 158, 158, 0.22);
 }
+
+.contact-info::placeholder {
+    color: whitesmoke;
+    opacity: 1;
+}
+
+.contact-info:-ms-input-placeholder {
+    color: whitesmoke;
+}
+
+.contact-info::-ms-input-placeholder {
+    color: whitesmoke;
+}
