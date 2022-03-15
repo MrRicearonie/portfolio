@@ -12,6 +12,14 @@ h4 {
     margin-top: 0px;
 }
 
+a[href="#projects"] {
+    transition: all 0.75s ease-in-out;
+}
+
+a[href="#projects"]:hover {
+    transform: scale(1.3);
+}
+
 section {
     margin: 0px;
 }
