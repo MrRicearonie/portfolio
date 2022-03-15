@@ -16,6 +16,7 @@ textarea {
 h2 {
     font-size: 65px;
     margin: 0;
+    cursor: default;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;

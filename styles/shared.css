@@ -42,6 +42,14 @@ a {
     color: #ebebeb;
 }
 
+a[href="index.html"] {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
 a[href="contact.html"] {
     height: fit-content;
     font-size: larger;
@@ -52,7 +60,7 @@ a[href="contact.html"] {
 }
 
 a[href="contact.html"]:hover {
-    background-color: #384452;
+    background-color: #61778F;
     color: #ebebeb;
 }
 
@@ -78,10 +86,20 @@ footer {
     background-position: center;
     height: 250px;
     width: 100%;
-    color: #894f3d;
+    color: #110B08;
 }
 
 footer a {
-    color: #834c39;
+    color: #110B08;
     text-decoration: underline;
 }
+
+.sr-only {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+    
