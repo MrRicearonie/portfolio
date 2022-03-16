@@ -14,6 +14,10 @@ h4 {
 
 a[href="#projects"] {
     transition: all 0.75s ease-in-out;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 a[href="#projects"]:hover {
@@ -40,10 +44,6 @@ section {
     font-size: 3rem;
     margin: 0px;
     cursor: default;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
 }
 
 .splash-screen p i {
